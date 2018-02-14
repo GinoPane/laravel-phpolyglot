@@ -1,16 +1,16 @@
 Laravel PHPolyglot
 ==================
 
-[![Latest Stable Version](https://poser.pugx.org/gino-pane/composer-package-template/v/stable)](https://packagist.org/packages/gino-pane/composer-package-template)
-[![License](https://poser.pugx.org/gino-pane/composer-package-template/license)](https://packagist.org/packages/gino-pane/composer-package-template)
-[![Total Downloads](https://poser.pugx.org/gino-pane/composer-package-template/downloads)](https://packagist.org/packages/gino-pane/composer-package-template)
+[![Latest Stable Version](https://poser.pugx.org/gino-pane/laravel-phpolyglot/v/stable)](https://packagist.org/packages/gino-pane/laravel-phpolyglot)
+[![License](https://poser.pugx.org/gino-pane/laravel-phpolyglot/license)](https://packagist.org/packages/gino-pane/laravel-phpolyglot)
+[![Total Downloads](https://poser.pugx.org/gino-pane/laravel-phpolyglot/downloads)](https://packagist.org/packages/gino-pane/laravel-phpolyglot)
 
 Laravel package wrapper for [PHPolyglot](https://github.com/GinoPane/PHPolyglot).
 
 Requirements
 ------------
 
-* PHP >= 7.0;
+* PHP >= 7.1;
 * Laravel Framework.
 
 Installation
