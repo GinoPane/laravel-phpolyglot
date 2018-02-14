@@ -23,6 +23,9 @@ After package installation please make sure to publish its configuration (if it 
 
     php artisan vendor:publish --provider="GinoPane\LaravelPhpolyglot\LaravelPhpolyglotProvider" --tag=config
 
+or
+
+    composer run-script post-package-install -d ./vendor/gino-pane/laravel-phpolyglot
 
 Usage
 =====
