@@ -19,6 +19,10 @@ Installation
     composer require gino-pane/laravel-phpolyglot
     
 As per Laravel 5.5 service provider and facade will be registered automatically when installing. For previous versions please register service provider and facade manually.
+After package installation please make sure to publish its configuration (if it was not done automatically by composer command):
+
+    php artisan vendor:publish --provider="GinoPane\LaravelPhpolyglot\LaravelPhpolyglotProvider" --tag=config
+
 
 Usage
 =====

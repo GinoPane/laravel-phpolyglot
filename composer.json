@@ -52,5 +52,8 @@
                 "PHPolyglot": "GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotFacade"
             }
         }
+    },
+    "scripts": {
+        "post-install-cmd": "@php artisan vendor:publish --provider=\"GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotProvider\" --tag=config"
     }
 }

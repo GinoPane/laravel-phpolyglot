@@ -20,8 +20,8 @@ class LaravelPhpolyglotProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            dirname(__FILE__, 2).'/vendor/gino-pane/phpolyglot/config.php' => config_path('phpolyglot.php'),
-        ]);
+            dirname(__FILE__, 3).'/phpolyglot/config.php' => config_path('phpolyglot.php')
+        ], 'config');
     }
 
     /**
