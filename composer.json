@@ -54,6 +54,6 @@
         }
     },
     "scripts": {
-        "post-package-install": "@php ../../../artisan vendor:publish --provider=\"GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotProvider\" --tag=config"
+        "publish-config": "@php ../../../artisan vendor:publish --provider=\"GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotProvider\" --tag=config"
     }
 }

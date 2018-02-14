@@ -25,7 +25,7 @@ After package installation please make sure to publish its configuration (if it 
 
 or
 
-    composer run-script post-package-install -d ./vendor/gino-pane/laravel-phpolyglot
+    composer run-script publish-config -d ./vendor/gino-pane/laravel-phpolyglot
 
 Usage
 =====
