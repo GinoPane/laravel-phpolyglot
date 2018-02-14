@@ -32,7 +32,7 @@ class LaravelPhpolyglotProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(PHPolyglot::class, function ($app) {
-            return new PHPolyglot();
+            return new PHPolyglot($app['config']['phpolyglot'], []);
         });
     }
 

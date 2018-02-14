@@ -26,6 +26,14 @@ After package installation please make sure to publish its configuration (if it 
 or
 
     composer run-script publish-config -d ./vendor/gino-pane/laravel-phpolyglot
+    
+Also make sure to manually put your specific credentials from [PHPolyglot](https://github.com/GinoPane/PHPolyglot)'s `.env` file into Laravel's `.env` because automatic changes to `.env` are not welcome.   
+
+After this you could do something like this in your Laravel's `web.php`:
+
+    Route::get('/', function () {
+        return view((string)PHPolyglot::translate('welcome', 'it'));
+    });
 
 Usage
 =====
