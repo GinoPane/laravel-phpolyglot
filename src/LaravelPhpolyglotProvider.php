@@ -5,7 +5,7 @@
  * @author: Sergey <Gino Pane> Karavay
  */
 
-namespace App\Providers;
+namespace GinoPane\LaravelPhpolyglot;
 
 use GinoPane\PHPolyglot\PHPolyglot;
 use Illuminate\Support\ServiceProvider;
