@@ -1,0 +1,56 @@
+{
+    "name": "gino-pane/laravel-phpolyglot",
+    "description": "Laravel package wrapper for PHP package for translation, spelling correction and text-to-speech (TTS) synthesis using external APIs",
+    "homepage": "http://github.com/GinoPane/laravel-phpolyglot",
+    "keywords": [
+        "laravel",
+        "laravel package",
+        "localization",
+        "translation",
+        "spelling",
+        "spelling correction",
+        "grammar correction",
+        "text-to-speech",
+        "tts",
+        "yandex api",
+        "yandex translate api",
+        "yandex dictionary api",
+        "ibm watson api",
+        "ibm watson tts"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey <Gino Pane> Karavay",
+            "homepage": "http://sergey.karavay.name",
+            "email": "sergey.karavay@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "http://github.com/GinoPane/laravel-phpolyglot"
+    },
+    "type": "package",
+    "require": {
+        "php": "^7.0",
+        "gino-pane/phpolyglot": "~1.1"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "GinoPane\\LaravelPhpolyglot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotProvider"
+            ],
+            "aliases": {
+                "PHPolyglot": "GinoPane\\LaravelPhpolyglot\\LaravelPhpolyglotFacade"
+            }
+        }
+    }
+}

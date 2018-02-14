@@ -1,0 +1,8 @@
+# IDE specific
+.idea
+
+# Project specific
+vendor
+
+# OS specific
+.DS_Store
