@@ -16,9 +16,19 @@ Types of changes
 
 ## [Unreleased]
 
+## 1.0.1...1.0.4 - 2018-02-14
+
+### Changed
+* fixed publishing;
+* fixed facade;
+* updated README.
+
+### Features
+* Laravel package wrapper.
+
 ## 1.0.0 - 2018-02-14
 
 ### Features
 * Laravel package wrapper.
 
-[Unreleased]: https://github.com/GinoPane/composer-package-template/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/GinoPane/composer-package-template/compare/v1.0.4...HEAD
