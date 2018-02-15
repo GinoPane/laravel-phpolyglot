@@ -16,6 +16,12 @@ Types of changes
 
 ## [Unreleased]
 
+## 1.0.5 - 2018-02-15
+
+### Changed
+* updated dependencies;
+* updated README.
+
 ## 1.0.1...1.0.4 - 2018-02-14
 
 ### Changed
