@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "62f2e99c8e9873b57cd8b1d4ced0b09c",
+    "content-hash": "7c60694560f0103811dbb9ea3f4883ea",
     "packages": [
         {
             "name": "gino-pane/nano-http-status",
@@ -117,16 +117,16 @@
         },
         {
             "name": "gino-pane/phpolyglot",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GinoPane/PHPolyglot.git",
-                "reference": "e10181569a2fcf68222b7cdc228dcba62405dced"
+                "reference": "92260d8235b8921ee6aa2f94967b7a0971ff0af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GinoPane/PHPolyglot/zipball/e10181569a2fcf68222b7cdc228dcba62405dced",
-                "reference": "e10181569a2fcf68222b7cdc228dcba62405dced",
+                "url": "https://api.github.com/repos/GinoPane/PHPolyglot/zipball/92260d8235b8921ee6aa2f94967b7a0971ff0af6",
+                "reference": "92260d8235b8921ee6aa2f94967b7a0971ff0af6",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
             "require-dev": {
                 "phpdocumentor/phpdocumentor": "^2.0",
                 "phpmd/phpmd": "^2.6",
-                "phpunit/phpunit": "^6.0",
+                "phpunit/phpunit": "~7.0",
                 "squizlabs/php_codesniffer": "^3.0",
                 "symfony/thanks": "^1.0"
             },
@@ -174,7 +174,7 @@
                 "yandex dictionary api",
                 "yandex translate api"
             ],
-            "time": "2018-02-13T18:54:59+00:00"
+            "time": "2018-02-15T10:04:13+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2037,7 +2037,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.0"
+        "php": "^7.1"
     },
     "platform-dev": []
 }
