@@ -16,6 +16,11 @@ Types of changes
 
 ## [Unreleased]
 
+## 1.0.6 - 2018-11-05
+
+### Changed
+* made the service provider deferred.
+
 ## 1.0.5 - 2018-02-15
 
 ### Changed
@@ -37,4 +42,4 @@ Types of changes
 ### Features
 * Laravel package wrapper.
 
-[Unreleased]: https://github.com/GinoPane/composer-package-template/compare/v1.0.4...HEAD
+[Unreleased]: https://github.com/GinoPane/composer-package-template/compare/v1.0.6...HEAD
